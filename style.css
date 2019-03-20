@@ -186,6 +186,7 @@ article > p > a:hover {
   display: inline-block;
   font-size: 14px;
   font-weight: 700;
+  letter-spacing: 0.02em;
   color: #121212;
   margin-bottom: 15px;
 }
@@ -199,6 +200,17 @@ article > p > a:hover {
   text-decoration: none;
 }
 
+small, small a {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #999;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+small a:hover {
+  text-decoration: underline;
+}
+
 /* Figure */
 
 .large-container {
@@ -210,7 +222,7 @@ article > p > a:hover {
 }
 
 .regular-fig {
-  margin: 0;
+  margin: 43px 0;
 }
 
 figure:first-child {
@@ -230,6 +242,7 @@ figcaption {
 .credit {
   display: block;
   font-size: 0.8rem;
+  letter-spacing: 0.01em;
   color: #888;
 }
 
@@ -315,6 +328,7 @@ figcaption {
 .inflation-theory span {
   font-size: 11px;
   font-weight: bold;
+  letter-spacing: 0.05em;
 }
 
 span.section-credit::before {
@@ -340,6 +354,7 @@ span.section-credit {
   height: 34px;
   font-size: 13px;
   font-weight: 400;
+  letter-spacing: 0.02em;
   color: #121212;
   margin-bottom: 16px;
 }
@@ -352,7 +367,7 @@ span.section-credit {
 }
 
 .social ul.small {
-  width: 200px;
+  width: 160px;
 }
 
 .social a {
@@ -398,6 +413,13 @@ li.social:hover {
 
 .comment a span {
   margin-top: 5px;
+}
+
+.cta.read {
+  width: 330px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
 }
 
 /* Aside */
