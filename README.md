@@ -1,8 +1,11 @@
 This is a HTML and CSS positioning project. Demonstrated skills include:
 
-* To be added...
+* Box model
+* Positioning
+* Flexbox
+* Grid
 
-Sources:
+Source:
 
 * [Font Awesome](https://fontawesome.com)
 
